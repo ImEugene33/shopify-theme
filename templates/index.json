@@ -50,6 +50,9 @@
     "16643816713ed264b3": {
       "type": "hero",
       "settings": {
+        "heading": "Hello",
+        "copy": "The best ceilings in the South Coast!",
+        "link_url": ""
       }
     },
     "rich_text": {
