@@ -1,4 +1,4 @@
-<section class="hero hero--[ id ]">
+<section class="hero hero--{{ section.id }}">
 
   <div class="hero-content">
     <h2 class="hero_heading">{{ section.settings.heading }}</h2>
@@ -8,7 +8,7 @@
 </section>
 
 <style>
-.hero--[id] {
+.hero--{{ section.id }} {
 background-image:url({{ section.settings.small_img | image_url: 'master' }})
 }
 </style>
