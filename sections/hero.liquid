@@ -1,8 +1,18 @@
-<section class="hero--{{ id }}">
-  <h2 class="hero_heading">{{ section.settings.heading }}</h2>
-  <p class="hero_copy" >{{ settings.copy }}</p>
+<section class="hero hero--{{ section.settings.id }}">
+
+  <div class="hero-content">
+    <h2 class="hero_heading">{{ section.settings.heading }}</h2>
+    <p class="hero_copy" >{{ section.settings.copy }}</p>
+  </div>
 
 </section>
+
+<style>
+.hero--{{ section.settings.id }} {
+background-image:url({{ section.settings.small_img | image_url: 'master' }})
+}
+</style>
+
 
 {% schema %}
   {
