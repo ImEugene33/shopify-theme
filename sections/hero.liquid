@@ -7,12 +7,12 @@
 
 </section>
 
-{%- style -%}
+{% style %}
 
 .hero--{{ section.id }} {
 background-image:url({{ section.settings.small_img | image_url: 'master' }})
 }
-{%- endstyle -%}
+{% endstyle %}
 
 
 {% schema %}
