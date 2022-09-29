@@ -50,6 +50,9 @@
     "16643816713ed264b3": {
       "type": "hero",
       "settings": {
+        "heading": "hello",
+        "copy": "",
+        "link_url": ""
       }
     },
     "rich_text": {
