@@ -11,8 +11,18 @@
 
 <style>
 
+  .hero-content {
+    color: white;
+  }
+
   .hero--{{ section.id }}{
-    background-image: url('{{ section.settings.small_img | image_url: 'master' }}')
+    background-image: url('{{ section.settings.small_img | image_url: width: 1200 }}');
+    background-size: cover;
+  }
+  @media(min-width: 920px) {
+    .hero--{{ section.id }}{
+      background-image: url('{{ section.settings.large_img | image_url }}');
+    }
   }
 </style>
 
@@ -55,4 +65,4 @@
       }
     ]
   }
-{% endschema %}}
+{% endschema %}}}
