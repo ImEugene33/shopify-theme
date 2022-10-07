@@ -8,7 +8,7 @@
         <div class="swiper-slide">
         
           <div class="hero-content">
-            <img src='{{ section.settings.small_img | image_url: width: 1300, height: 400}}' loading='lazy'>
+              <img src='{{ section.settings.small_img | image_url: width: 1300, height: 400}}' loading='lazy'>
               <h2 class="hero_heading">{{ section.settings.heading }}</h2>
               <p class="hero_copy">{{ section.settings.copy }}</p>
           </div>
@@ -37,13 +37,13 @@
   }
 
   .hero--{{ section.id }}{
-    background-image: url('{{ section.settings.small_img | image_url }}');
-    background-size: cover;
-    min-height:200px;
+    {% comment %} background-image: url('{{ section.settings.small_img | image_url }}');
+    background-size: cover; {% endcomment %}
+    min-height:400px;
   }
   @media(min-width: 920px) {
     .hero--{{ section.id }}{
-      background-image: url('{{ section.settings.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}');
+      {% comment %} background-image: url('{{ section.settings.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}'); {% endcomment %}
     }
   }
 </style>
