@@ -1,4 +1,16 @@
+
+<script src="{{ 'swiper.js' | asset_url }}" defer="defer" ></script> 
+
 <section class="hero hero--{{ section.id }}">
+
+ <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+      </div>
+      <div class="swiper-button-next"> </div>
+      <div class="swiper-button-prev"> </div>
+      <div class="swiper-pagination"> </div>
+    </div>
 
   <div class="hero-content">
     <h2 class="hero_heading">{{ section.settings.heading }}
@@ -11,17 +23,20 @@
 
 <style>
 
+
+
   .hero-content {
     color: white;
   }
 
   .hero--{{ section.id }}{
-    background-image: url('{{ section.settings.small_img | image_url: width: 3000 }}');
+    background-image: url('{{ section.settings.small_img | image_url }}');
     background-size: cover;
+    min-height:200px;
   }
   @media(min-width: 920px) {
     .hero--{{ section.id }}{
-      background-image: url('{{ section.settings.large_img | image_url }}');
+      background-image: url('{{ section.settings.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}');
     }
   }
 </style>
@@ -41,7 +56,7 @@
         "type": "textarea",
         "id": "copy",
         "label": "Body Copy",
-        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "default": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
         "type": "url",
@@ -66,3 +81,4 @@
     ]
   }
 {% endschema %}
+
