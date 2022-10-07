@@ -5,7 +5,7 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="hero-content hero--{{ section.id }}">
-          <h2 class="hero_heading">{{ section.settings.heading }}</h2>
+          <h2 class="hero_heading">{{ section.blocks.settings.heading }}</h2>
           <p class="hero_copy">{{ section.settings.copy }}</p>
         </div>
       </div>
@@ -38,19 +38,18 @@
 {
   "name": "Hero",
   "max_blocks": 5,
-  "settings": [
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "Bye Bye"
-    }
-  ],
+
   "blocks": [
     {
       "name": "Slide",
       "type": "slide",
       "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Bye Bye"
+        },
         {
           "type": "textarea",
           "id": "copy",
