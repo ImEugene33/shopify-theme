@@ -8,17 +8,16 @@
         <div class="swiper-slide">
         
           <div class="hero-content">
-    <h2 class="hero_heading">{{ section.settings.heading }}
-    </h2>
-    <p class="hero_copy">{{ section.settings.copy }}
-    </p>
-  </div>
-        
+            <img url('{{ section.settings.small_img | image_url }}') loading='lazy'>
+              <h2 class="hero_heading">{{ section.settings.heading }}</h2>
+              <p class="hero_copy">{{ section.settings.copy }}</p>
+          </div>
+
         </div>
       
       </div>
-      <div class="swiper-button-next"> </div>
       <div class="swiper-button-prev"> </div>
+      <div class="swiper-button-next"> </div>
     </div>
 
 
@@ -34,6 +33,7 @@
 
   .hero-content {
     color: white;
+    text-align:center;
   }
 
   .hero--{{ section.id }}{
@@ -74,7 +74,8 @@
         "type": "image_picker",
         "id": "small_img",
         "label": "Small Image"
-      }, {
+      }, 
+      {
         "type": "image_picker",
         "id": "large_img",
         "label": "Large Image"
