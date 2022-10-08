@@ -224,10 +224,19 @@
             "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "large_img": "shopify:\/\/shop_images\/wallpaperbetter.com_1920x1080_3a71e46f-0543-4a24-97b3-14bbd915be13.jpg"
           }
+        },
+        "905f30ea-2650-4a75-9cc8-1c8846fec591": {
+          "type": "slide",
+          "settings": {
+            "heading": "Bye Bye bbbb",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "large_img": "shopify:\/\/shop_images\/money-pile.jpg"
+          }
         }
       },
       "block_order": [
-        "153709cc-a258-4b6f-a38d-1194951c38ba"
+        "153709cc-a258-4b6f-a38d-1194951c38ba",
+        "905f30ea-2650-4a75-9cc8-1c8846fec591"
       ],
       "settings": {
       }
