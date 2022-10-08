@@ -2,20 +2,19 @@
 
 <section class="hero ">
   <div class="swiper mySwiper">
-    
+    {% for block in section.blocks %}
+      {% assign item = block.settings %}
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          {% for block in section.blocks %}
-            {% assign item = block.settings %}
           <div class="hero-content hero--{{ item.id }}">
             <h2 class="hero_heading">{{ item.heading }}</h2>
             <p class="hero_copy">{{ item.copy }}</p>
-          {% endfor %}
           </div>
         </div>
       </div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
+    {% endfor %}
   </div>
 </section>
 
