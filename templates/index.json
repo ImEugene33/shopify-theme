@@ -225,10 +225,19 @@
             "small_img": "shopify:\/\/shop_images\/close-up-of-purple-and-blue-laces.jpg",
             "large_img": "shopify:\/\/shop_images\/wallpaperbetter.com_1920x1080_3a71e46f-0543-4a24-97b3-14bbd915be13.jpg"
           }
+        },
+        "cf123ddc-b360-46a3-a357-f45d93d8c726": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hello",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "large_img": "shopify:\/\/shop_images\/money-pile.jpg"
+          }
         }
       },
       "block_order": [
-        "b98e60b4-254f-4edc-abb8-e77ddcd5ce45"
+        "b98e60b4-254f-4edc-abb8-e77ddcd5ce45",
+        "cf123ddc-b360-46a3-a357-f45d93d8c726"
       ],
       "settings": {
       }
