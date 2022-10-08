@@ -2,19 +2,20 @@
 
 <section class="hero ">
   <div class="swiper mySwiper">
-    {% for block in section.blocks %}
-      {% assign item = block.settings %}
+    
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="hero-content hero--{{ section.id }}">
+          {% for block in section.blocks %}
+            {% assign item = block.settings %}
+          <div class="hero-content hero--{{ item.id }}">
             <h2 class="hero_heading">{{ item.heading }}</h2>
             <p class="hero_copy">{{ item.copy }}</p>
+          {% endfor %}
           </div>
         </div>
       </div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
-    {% endfor %}
   </div>
 </section>
 
@@ -26,13 +27,13 @@
   }
 
   .hero--{{ section.id }}{
-    background-image: url('{{ section.settings.small_img | image_url }}');
+    background-image: url('{{ item.small_img | image_url }}');
     background-size: cover;
 
   }
   @media(min-width: 920px) {
     .hero--{{ section.id }}{
-       background-image: url('{{ section.settings.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}');
+       background-image: url('{{ item.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}');
     }
   }
 </style>
