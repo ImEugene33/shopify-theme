@@ -213,33 +213,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "720aacba-4ea7-43f3-a616-8deab50d4005": {
-      "type": "hero",
-      "blocks": {
-        "edf33986-c9a4-4141-bf0c-690d3ffacc81": {
-          "type": "slide",
-          "settings": {
-            "heading": "Bye Bye",
-            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "large_img": "shopify:\/\/shop_images\/wallpaperbetter.com_1920x1080_3a71e46f-0543-4a24-97b3-14bbd915be13.jpg"
-          }
-        },
-        "f23a83e8-43e7-4a92-be86-6d4f99f8e45e": {
-          "type": "slide",
-          "settings": {
-            "heading": "Bye Bye",
-            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "large_img": "shopify:\/\/shop_images\/close-up-of-purple-and-blue-laces.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "edf33986-c9a4-4141-bf0c-690d3ffacc81",
-        "f23a83e8-43e7-4a92-be86-6d4f99f8e45e"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -249,7 +222,6 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "720aacba-4ea7-43f3-a616-8deab50d4005"
+    "multicolumn"
   ]
 }
