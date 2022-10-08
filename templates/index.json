@@ -213,24 +213,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "c7dc1285-3594-499a-a52f-cbe59fb469a5": {
-      "type": "hero",
-      "blocks": {
-        "fa11de23-527a-43fd-885d-dcea8239a35e": {
-          "type": "slide",
-          "settings": {
-            "heading": "Bye Bye",
-            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "large_img": "shopify:\/\/shop_images\/wallpaperbetter.com_1920x1080_3a71e46f-0543-4a24-97b3-14bbd915be13.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "fa11de23-527a-43fd-885d-dcea8239a35e"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -240,7 +222,6 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "c7dc1285-3594-499a-a52f-cbe59fb469a5"
+    "multicolumn"
   ]
 }
