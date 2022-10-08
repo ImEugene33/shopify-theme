@@ -4,9 +4,9 @@
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="hero-content hero--{{ section.id }}">
+        <div class="hero-content hero--{{ section.block.id }}">
           <h2 class="hero_heading">{{ block.settings.heading }}</h2>
-          <p class="hero_copy">{{ section.settings.copy }}</p>
+          <p class="hero_copy">{{ block.settings.copy }}</p>
         </div>
       </div>
     </div>
@@ -23,13 +23,13 @@
   }
 
   .hero--{{ section.id }}{
-    background-image: url('{{ section.settings.small_img | image_url }}');
+    background-image: url('{{ block.settings.small_img | image_url }}');
     background-size: cover;
 
   }
   @media(min-width: 920px) {
     .hero--{{ section.id }}{
-       background-image: url('{{ section.settings.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}');
+       background-image: url('{{ block.settings.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}');
     }
   }
 </style>
