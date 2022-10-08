@@ -37,30 +37,37 @@
 {% schema %}
 {
   "name": "Hero",
-  "settings": [
+  "blocks": [
     {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading",
-      "default": "Bye Bye"
-    },
-    {
-      "type": "textarea",
-      "id": "copy",
-      "label": "Body Copy",
-      "default": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-    },
-    {
-      "type": "image_picker",
-      "id": "small_img",
-      "label": "Small Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "large_img",
-      "label": "Large Image"
+      "name": "Slideshow",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Bye Bye"
+        },
+        {
+          "type": "textarea",
+          "id": "copy",
+          "label": "Body Copy",
+          "default": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        },
+        {
+          "type": "image_picker",
+          "id": "small_img",
+          "label": "Small Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "large_img",
+          "label": "Large Image"
+        }
+      ]
     }
   ],
+
   "presets": [
     {
       "name": "Hero",
