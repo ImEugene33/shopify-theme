@@ -213,6 +213,25 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "88ff48a0-b756-4f8e-af97-258d7fc5f572": {
+      "type": "hero",
+      "blocks": {
+        "b98e60b4-254f-4edc-abb8-e77ddcd5ce45": {
+          "type": "slide",
+          "settings": {
+            "heading": "Bye Bye",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "small_img": "shopify:\/\/shop_images\/close-up-of-purple-and-blue-laces.jpg",
+            "large_img": "shopify:\/\/shop_images\/wallpaperbetter.com_1920x1080_3a71e46f-0543-4a24-97b3-14bbd915be13.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b98e60b4-254f-4edc-abb8-e77ddcd5ce45"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -222,6 +241,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "88ff48a0-b756-4f8e-af97-258d7fc5f572"
   ]
 }
