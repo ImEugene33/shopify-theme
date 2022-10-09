@@ -213,6 +213,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8acabe17-1160-4bdf-bfb8-ee7c0921b821": {
+      "type": "hero",
+      "blocks": {
+        "32f2091d-08ec-49bf-9847-bcacfe3ec445": {
+          "type": "slide",
+          "settings": {
+            "heading": "Bye Bye!!!!!!!!!!!!",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "85271752-8edc-43f2-959f-6c9d170ea010": {
+          "type": "slide",
+          "settings": {
+            "heading": "Bye Bye",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        }
+      },
+      "block_order": [
+        "32f2091d-08ec-49bf-9847-bcacfe3ec445",
+        "85271752-8edc-43f2-959f-6c9d170ea010"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -222,6 +247,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "8acabe17-1160-4bdf-bfb8-ee7c0921b821"
   ]
 }
