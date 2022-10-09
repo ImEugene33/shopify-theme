@@ -224,10 +224,18 @@
             "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "large_img": "shopify:\/\/shop_images\/wallpaperbetter.com_1920x1080_3a71e46f-0543-4a24-97b3-14bbd915be13.jpg"
           }
+        },
+        "b72492c3-ec06-4000-8025-8062e4004519": {
+          "type": "slide",
+          "settings": {
+            "heading": "Bye Bye",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
         }
       },
       "block_order": [
-        "339cd69f-a96b-424f-bbf6-db3038aed47e"
+        "339cd69f-a96b-424f-bbf6-db3038aed47e",
+        "b72492c3-ec06-4000-8025-8062e4004519"
       ],
       "settings": {
       }
