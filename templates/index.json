@@ -57,10 +57,19 @@
             "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "large_img": "shopify:\/\/shop_images\/wallpaperbetter.com_1920x1080_3a71e46f-0543-4a24-97b3-14bbd915be13.jpg"
           }
+        },
+        "4c985d88-770f-4150-838e-2ccdc7b1c237": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hello!",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "large_img": "shopify:\/\/shop_images\/money-pile.jpg"
+          }
         }
       },
       "block_order": [
-        "7e1542ae-ff40-492a-b7b5-7608e030ed3a"
+        "7e1542ae-ff40-492a-b7b5-7608e030ed3a",
+        "4c985d88-770f-4150-838e-2ccdc7b1c237"
       ],
       "settings": {
       }
