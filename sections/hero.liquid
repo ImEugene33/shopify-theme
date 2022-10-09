@@ -3,14 +3,14 @@
 <section class="hero ">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        {% for block in section.blocks %}
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
           <div class="hero-content hero--{{ block.id }}">
             <h2 class="hero_heading">{{ block.settings.heading }}</h2>
             <p class="hero_copy">{{ block.settings.copy }}</p>
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
     </div>
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
