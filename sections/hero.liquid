@@ -4,7 +4,7 @@
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
-        <div class="swiper-slide hero-content">
+        <div class="swiper-slide ">
           <img src="{{ block.settings.large_img | image_url: width: 1300, height: 400 }}" loading="lazy">
           <div class="hero-content hero--{{ block.id }}">
             <h2 class="hero_heading">{{ block.settings.heading }}</h2>
@@ -19,9 +19,10 @@
 </section>
 
 <style>
-  .hero-content {
+  .swiper-slide {
     color: black;
     text-align:center;
+    position: relative;
     min-height:400px;
   }
 
