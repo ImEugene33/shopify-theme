@@ -65,11 +65,20 @@
             "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "large_img": "shopify:\/\/shop_images\/money-pile.jpg"
           }
+        },
+        "57bfe86e-a2d4-4a56-86c2-4edd63677bf7": {
+          "type": "slide",
+          "settings": {
+            "heading": "Congrats!",
+            "copy": "!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "large_img": "shopify:\/\/shop_images\/city-lights-through-rain-window.jpg"
+          }
         }
       },
       "block_order": [
         "7e1542ae-ff40-492a-b7b5-7608e030ed3a",
-        "4c985d88-770f-4150-838e-2ccdc7b1c237"
+        "4c985d88-770f-4150-838e-2ccdc7b1c237",
+        "57bfe86e-a2d4-4a56-86c2-4edd63677bf7"
       ],
       "settings": {
       }
