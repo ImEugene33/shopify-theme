@@ -5,7 +5,7 @@
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
         <div class="swiper-slide ">
-          <img src="{{ block.settings.large_img | image_url: width: 1300, height: 400 }}" loading="lazy">
+          <img src="{{ block.settings.large_img | image_url: width: 1300, height: 500,crop: 'top' }}" loading="lazy">
           <div class="hero-content hero--{{ block.id }}">
             <h2 class="hero_heading">{{ block.settings.heading }}</h2>
             <p class="hero_copy">{{ block.settings.copy }}</p>
@@ -24,7 +24,8 @@
     color: white;
     text-align:center;
     position: relative;
-    min-height:400px;
+    min-height:500px;
+
   }
 
   .hero-content{
@@ -41,7 +42,7 @@
   }
   @media(min-width: 920px) {
     .hero--{{ block.id }}{
-       background-image: url('{{ block.settings.large_img | image_url: width: 1300, height: 400, crop: 'bottom' }}');
+       background-image: url('{{ block.settings.large_img | image_url: width: 1080, height: 600, crop: 'bottom' }}');
     }
   }
 </style>
