@@ -9,7 +9,7 @@
             
             <div class="swiper-slide">
               {% for block in section.blocks %}
-              <div class="hero-content hero--{{ block.id }}">
+              <div class="hero-content hero--{{ section.id }}">
                 <h2 class="hero_heading">{{ block.settings.heading }}</h2>
                 <p class="hero_copy">{{ block.settings.copy }}</p>
               {% endfor %}
