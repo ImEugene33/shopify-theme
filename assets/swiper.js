@@ -8,4 +8,16 @@ const swiper = new Swiper(".swiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
     },
+    scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true,
+    },
+    autoplay: {
+        delay: 5000,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+        dynamicBullets: true,
+    },
 });
